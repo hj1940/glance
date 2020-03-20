@@ -24,8 +24,8 @@ class App extends Component {
           </div>
           <Header/>
         </div>
-        <div className="contents-main">
-          
+        <div className="contents-slide">
+          <Main/>
         </div>
         <div>
 

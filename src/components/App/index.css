@@ -1,7 +1,8 @@
 .App {
   font-family: Muli,sans-serif;
   width: 100%;
-  bottom: 0px;
+  bottom: 50%;
+  position: absolute;
 }
 
 .App-logo {
@@ -19,6 +20,13 @@
   width: 100%; /* Full width */
   transition: 0.2s; /* Add a transition effect (when scrolling - and font size is decreased) */
 }
+
+.contents-slide {
+  position: fixed; /* Fixed position - sit on top of the page */
+  top: 50;
+  width: 100%; /* Full width */
+}
+
 
 .App-title{
   font-size: 30px;

@@ -20,6 +20,10 @@
   transition: 0.2s; /* Add a transition effect (when scrolling - and font size is decreased) */
 }
 
+.App-title{
+  font-size: 30px;
+}
+
 .App-link {
   color: #61dafb;
 }

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './index.css';
 import Header from '../Header'
+import Main from '../Main'
 
 class App extends Component {
   componentDidMount() {
@@ -18,10 +19,13 @@ class App extends Component {
     return (
       <div className={"App"}>
         <div className="App-header" id="header">
-
+          <div className="App-title">
+            {/*<p>메이플스토리 캐시 아이템 한눈에</p>*/}
+          </div>
+          <Header/>
         </div>
         <div className="contents-main">
-
+          
         </div>
         <div>
 
